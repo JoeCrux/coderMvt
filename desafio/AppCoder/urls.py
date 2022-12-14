@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import saludo,probandoTemplate,desafio
+from .views import saludo,probandoTemplate,desafio,altaData
 
 urlpatterns = [
     path('saludo/', saludo),

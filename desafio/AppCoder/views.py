@@ -14,3 +14,4 @@ def desafio(request):
     personas = Persona.objects.all()
     return render(request,'desafioMvt.html',{"personas":personas})
 
+
